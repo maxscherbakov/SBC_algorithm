@@ -1,0 +1,13 @@
+[workspace]
+members = ["runner"]
+
+[package]
+name = "sbc_algorithm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chunkfs = { git = "https://github.com/Piletskii-Oleg/chunkfs.git", branch = "SBC-FBC-support" }
+
+[dev-dependencies]
+fastcdc = "3.1.0"
